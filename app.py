@@ -25,7 +25,7 @@ os.system("start resp.mp3")
 
 # import openai
 
-# api_key = "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" 
+# api_key = "secret" 
 # openai.api_key = api_key
 
 # respuesta = openai.Completion.create(
