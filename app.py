@@ -21,3 +21,18 @@ with open('leer.txt', 'w') as f:
 speech = gTTS(text = str(txt), lang = "es-us", slow = False)
 speech.save("resp.mp3")
 os.system("start resp.mp3")
+
+
+# import openai
+
+# api_key = "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" 
+# openai.api_key = api_key
+
+# respuesta = openai.Completion.create(
+#   engine="davinci",  # Otra opción de motor puede ser "curie"
+#   prompt="¿Cuál es la capital de Francia?",
+#   max_tokens=50,  
+#   temperature=0.7  
+# )
+
+# print(respuesta.choices[0].text.strip())

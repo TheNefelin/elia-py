@@ -13,4 +13,7 @@ virtualenv -p python3 env
 pip install gTTS
 pip install SpeechRecognition
 pip install PyAudio
+
+pip install openai
 ```
+
